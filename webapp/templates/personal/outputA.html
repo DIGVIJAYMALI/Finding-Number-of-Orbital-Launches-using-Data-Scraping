@@ -1,0 +1,18 @@
+{%	extends "personal/orbitallaunch.html"	%}
+
+{% block content %}
+<html>
+<head>
+{% load staticfiles %}
+ <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" />
+</head>
+<body>
+
+											<br/>
+												{{content | safe}}
+
+											<br/>
+										
+		</body>
+	</html>
+{% endblock %}
